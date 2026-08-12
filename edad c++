@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int edad;
+    cout<<"ingrese la edad: ";
+    cin >>edad;
+    if (edad==0||edad>120){
+        cout<<"no se puede"<<endl;
+    }
+    if (edad==10&&edad>=1){
+        cout<<"es un niño/a"<<endl;
+    }
+    if(edad>10&&edad<18){
+        cout<<"es adolescente"<<endl;
+    }
+    if(edad==18&&edad<29){
+        cout<<"es adulto joven"<<endl;
+    }
+    if(edad>=30){
+        cout<<"es adulto y tal vez muera pronto"<<endl;
+    }
+    cout<<"la edad es: "<<edad<<endl;
+    return 0;
+}
